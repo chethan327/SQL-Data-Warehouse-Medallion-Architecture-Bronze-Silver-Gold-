@@ -1,4 +1,4 @@
-# 🏗️ SQL Data Warehouse Project
+# SQL Data Warehouse Project
 ### Medallion Architecture | CRM & ERP Integration | Star Schema Design
 
 ![SQL Server](https://img.shields.io/badge/SQL%20Server-T--SQL-blue?logo=microsoftsqlserver)
@@ -8,13 +8,13 @@
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This project demonstrates the end-to-end design and implementation of a **modern Data Warehouse** using SQL Server, following the **Medallion Architecture** (Bronze → Silver → Gold). It integrates data from two source systems — **CRM** and **ERP** — and transforms it into a business-ready **Star Schema** suitable for analytics and reporting.
 
 ---
 
-## 🏛️ Architecture
+## Architecture
 
 ```
 Source Systems
@@ -42,7 +42,7 @@ Source Systems
 └─────────────────────────────────────────────────────────┘
 ```
 
-![Architecture](https://img.shields.io/badge/Architecture-Medallion-orange)
+![Architecture](Architecture.jpg)
 ---
 
 ## 📂 Project Structure
@@ -163,7 +163,7 @@ EXEC silver.load_silver;
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Tool | Usage |
 |---|---|
@@ -190,8 +190,8 @@ EXEC silver.load_silver;
 
 ## 👤 Author
 
-**Chethan **
-
+**Chethan**
+- Thanks to **DataWithBaraa** for guidance
 
 ---
 
